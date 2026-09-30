@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111222;
+  color: #ffffff;
+  margin: 0 auto;
+  max-width: 85%;
+  text-align: center;
+}
+
+header {
+  background-color: #111222;
+}
+
+header img {
+  padding-top: 2rem;
+  max-width: 10%;
+  max-height: 10%;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: #fc9cd7;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.075em;
+}
+
+header p {
+  color: #ffebf7;
+  font-size: 1rem;
+}
+
+nav {
+  background-color: #111222;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+nav a {
+  color: #fc9cd7;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.85rem;
+  letter-spacing: 0.050em;
+}
+
+nav a:hover {
+  color: #ffd4ef;
+}
+
+h2 {
+  color:#fc9cd7;
+  font-weight: bold;
+  width: 100%;
+}
+
+.imagem-principal {
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.imagem-principal img {
+  max-width: 80%;
+  border-radius: 1rem;
+  border-color: #ca93eb;
+  border-style: solid;
+}
+
+.imagem-principal p {
+  color:#fc9cd7;
+  font-weight: bold;
+}
+
+.paragrafos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.paragrafo {
+    flex: 45%;
+    background-color: #1a1a2e;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.paragrafo-centralizado {
+    flex: 100%;
+    background-color: #1a1a2e;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#turismo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+#turismo article {
+    flex: 1 1;
+    background-color: #1a1a2e;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+#turismo article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 0.8rem;
+}
+
+#turismo h4 {
+  color: #fc9cd7;
+  font-weight: bold;
+}
+
+#contato {
+  padding-bottom: 0.5rem;
+}
+
+#contato p {
+  color:#ca93eb;
+}
+
+#contato img {
+width: 25px;
+height: 25px;
+} 
+
+#contato ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+}
+
+form label {
+    font-weight: bold;
+    color: #ca93eb;
+}
+
+form input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ca93eb;
+    font-size: 1rem;
+    background-color: #1a1a2e;
+    color: #ffffff;
+}
+
+form button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ca93eb;
+    cursor: pointer;
+    background-color: #3a2f41;
+}
+
+form button:hover {
+  color: #e2c4f3;
+}
+
+footer p {
+  color:#ca93eb;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
